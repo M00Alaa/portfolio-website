@@ -137,5 +137,22 @@
     font: normal 600 22px/30px var(--roboto);
 }
 
-
 /* end brand section */
+
+/* start services section */
+
+.services {
+    cursor: pointer;
+    background: rgba(248, 252, 253, 0.973);
+    transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+}
+
+.services:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/* end services section */
