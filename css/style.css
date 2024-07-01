@@ -225,3 +225,43 @@
 }
 
 /* end about me section */
+
+/* start subscribe section */
+
+.site-main .subscribe-area .subscribe {
+    background: url(../img/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.site-main .subscribe-area .subscribe .subscribe-title h4 {
+    font: normal 700 30px/30px var(--roboto);
+    color: whitesmoke;
+}
+
+.site-main .subscribe-area .subscribe .subscribe-title p {
+    color: whitesmoke;
+    padding: 1rem 4rem;
+
+}
+
+.site-main .subscribe-area .subscribe form .input-textbox input {
+    width: 500px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: black;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main .subscribe-area .subscribe form .input-textbox input::placeholder {
+    color: whitesmoke;
+}
+
+.site-main .subscribe-area .subscribe form .btn-submit button {
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+}
+
+/* end subscribe section */
