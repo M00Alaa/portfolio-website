@@ -16,10 +16,6 @@
         font-size: 41px;
     }
 
-    .site-main .subscribe-area .subscribe form .input-textbox input {
-        width: 15rem !important;
-    }
-
     .site-main>.services-area .services {
         width: 13rem;
     }
@@ -54,11 +50,6 @@
 
     .site-main .about-area .about-title p {
         padding: 0%;
-    }
-
-    .site-main .subscribe-area .subscribe form .input-textbox input {
-        width: 20rem;
-        margin: 5%;
     }
 }
 

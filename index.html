@@ -133,7 +133,7 @@
         <!-- start brand section -->
         <section id="brand" class="brand-area py-5">
             <div class="container">
-                <div class="row row-cols-1 row-cols-lg-2">
+                <div class="row row-cols-1 gy-3 row-cols-lg-2">
                     <div class="col">
                         <div class="d-flex flex-wrap align-items-center justify-content-between">
                             <div class="col-12 col-md-6 col-lg-4">
@@ -206,7 +206,7 @@
                                 </div>
                             </div>
 
-                            <div class="bg-panel"></div>
+                            <div class="bg-panel d-none d-md-block"></div>
                         </div>
                     </div>
                 </div>
@@ -528,30 +528,30 @@
 
         <!-- start subscribe section -->
         <section class="subscribe-area">
-            <div class="container subscribe">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 subscribe-title text-center">
-                        <h4 class="text-uppercase">Get update from anywhere</h4>
-                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aliquam!</p>
-                    </div>
-                </div>
-                <div class="d-sm-flex justify-content-center">
-                    <form class="w-50">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <div class=" input-textbox">
-                                    <input type="text" id="txtemail" class="form-control"
-                                        placeholder="Enter your email">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="btn-submit">
-                                    <button class="btn btn-success float-end" type="submit">Subscribe</button>
-                                </div>
-                            </div>
+                    <div class="col-md-10 mx-auto subscribe overflow-hidden rounded-3">
+                        <div class="col-lg-12 subscribe-title text-center">
+                            <h4 class="text-uppercase">Get update from anywhere</h4>
+                            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aliquam!</p>
                         </div>
-                    </form>
+                        <div class="d-flex justify-content-center">
+                            <form class="col-md-8 col-lg-6 d-flex flex-column flex-md-row align-items-center gap-3">
+                                <div class="col-12 col-md-9">
+                                    <div class="input-textbox">
+                                        <input type="text" id="txtemail" class="form-control"
+                                            placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <div class="btn-submit">
+                                        <button class="btn btn-success float-end w-100" type="submit">Subscribe</button>
+                                    </div>
+                                </div>
+                            </form>
 
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -565,19 +565,19 @@
         <div class="container">
             <div class="row text-center">
                 <div class="site-logo py-4">
-                    <a href=""><img src="./img/logo.png" alt=""></a>
+                    <a href="#"><img src="./img/logo.png" alt=""></a>
                 </div>
                 <div class="social">
                     <h5 class="text-uppercase">Follow me</h5>
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a style="cursor: pointer;"><i class="fab fa-facebook"></i></a>
+                    <a style="cursor: pointer;"><i class="fab fa-instagram"></i></a>
+                    <a style="cursor: pointer;"><i class="fab fa-youtube"></i></a>
+                    <a style="cursor: pointer;"><i class="fab fa-twitter"></i></a>
                 </div>
                 <div class="col-lg-12">
                     <p class="para">
                         Copyright @2024 All rights reserved | This template is made with
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart text-danger"></i>
                         by
                         <a href="https://mohamed-alaa.vercel.app/" style="color: var(--primary-color);"
                             target="_blank">Mohamed Alaa</a>
